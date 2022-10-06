@@ -4,8 +4,8 @@ etnr;Etappennummer;8;;;
 HAF_FID;Old (2015) name of the variable;$20.;;;
 f51300;f51300_Benutztes Verkehrsmittel;F51300A.;;;
 HAF_Fahrten_Seq;?;8;;;
-route_id;Routennummer im GTFS-Fahrplan (f¸r Etappen vor dem Fahrplanwechsel vom Dezember 2021, GTFS-Datei vom 16.12.2020);;;;
-trip_id;Reisenummer im GTFS-Fahrplan (neue Name fÅr HAF_FID);;;;
+route_id;Routennummer im GTFS-Fahrplan (f√ºr Etappen vor dem Fahrplanwechsel vom Dezember 2021, GTFS-Datei vom 16.12.2020);;;;
+trip_id;Reisenummer im GTFS-Fahrplan (neue Name f¬År HAF_FID);;;;
 route_desc;Verkehrsmittel im GTFS-Fahrplan (aus der Datei routes.txt);ROUTEDESCA;;;
 zugtyp;Zugtyp;ZUGTYPA;;;
 ;;;;;
@@ -27,14 +27,14 @@ F51300A;Pseudoetappe;-99;;;
 ;Bahn/Zug;11;;;
 ;Bus, Postauto, Schulbus;12;;;
 ;Tram/Metro;13;;;
-;"Taxi (im ""klassischen"" Sinn)";14;;;
-;Taxi-‰hnliche Fahrdienste (z.B. Uber);15;;;
+;'Taxi (im 'klassischen' Sinn)';14;;;
+;Taxi-√§hnliche Fahrdienste (z.B. Uber);15;;;
 ;Reisecar;16;;;
 ;Lastwagen;17;;;
 ;Schiff, Boot;18;;;
 ;Flugzeug/Luftfahrzeug;19;;;
 ;Zahnradbahn, Standseilbahn, Seilbahn, Sessellift, Skilift;20;;;
-;Fahrzeug‰hnliche Ger‰te;21;;;
+;Fahrzeug√§hnliche Ger√§te;21;;;
 ;Anderes;95;;;
 ZUGTYPA;f51300 ungleich 11;-99;;;
 ;Zugtyp konnte nicht zugewiesen werden;-97;;;
@@ -47,21 +47,21 @@ ROUTEDESCA;"Tram (Kodierung GTFS 2022: ""T"")";1;Tram;Tram;Tramway
 ;"S-Bahn (Kodierung GTFS 2022: ""S"")";2;RER;Rete celere;Urban train
 ;"RegioExpress (Kodierung GTFS 2022: ""RE"")";3;RegioExpress;RegioExpress;RegioExpress
 ;"Regio (Kodierung GTFS 2022: ""R"")";4;Regio;Regio;Regio
-;"Regionalbahn (Kodierung GTFS 2022: ""RB"")";5;Train rÈgional;Ferrovia regionale;Regional train
+;"Regionalbahn (Kodierung GTFS 2022: ""RB"")";5;Train r√©gional;Ferrovia regionale;Regional train
 ;"InterRegio (Kodierung GTFS 2022: ""IR"")";6;InterRegio;InterRegio;InterRegio
 ;"Train Express Regional (Kodierung GTFS 2022: ""TER"")";7;Train Express Regional;Train Express Regional;Train Express Regional
 ;"Expressbus (Kodierung GTFS 2022: ""EXB"")";8;Bus express;Bus espresso;Express bus
-;"Train ‡ grande vitesse (codage GTFS 2022: ""TGV"")";9;Train ‡ grande vitesse;Train ‡ grande vitesse;Train ‡ grande vitesse
+;"Train √† grande vitesse (codage GTFS 2022: ""TGV"")";9;Train √† grande vitesse;Train √† grande vitesse;Train √† grande vitesse
 ;"InterCity (Kodierung GTFS 2022: ""IC"")";10;InterCity;InterCity;InterCity
 ;"InterCityExpress (Kodierung GTFS 2022: ""ICE"")";11;InterCityExpress;InterCityExpress;InterCityExpress
 ;"EuroCity (Kodierung GTFS 2022: ""EC"")";12;EuroCity;EuroCity;EuroCity
 ;"PanoramaExpress (Kodierung GTFS 2022: ""PE"")";13;PanoramaExpress;PanoramaExpress;PanoramaExpress
-;"Extrazug (Kodierung GTFS 2022: ""EXT"")";14;Train spÈcial;Treno speciale;Special train
+;"Extrazug (Kodierung GTFS 2022: ""EXT"")";14;Train sp√©cial;Treno speciale;Special train
 ;"Interregio-Express (Kodierung GTFS 2022: ""IRE"")";15;Interregio-Express;Interregio-Express ;Interregio-Express 
 ;"railjet xpress (Kodierung GTFS 2022: ""RJX"")";16;railjet xpress;railjet xpress;railjet xpress
 ;"Nacht-S-Bahn (Kodierung GTFS 2022: ""SN"")";17;RER-nuit;Rete celere notte;Night-urban train
 ;"nightjet (Kodierung GTFS 2022: ""NJ"")";18;nightjet;nightjet;nightjet
-;"Metro (Kodierung GTFS 2022: ""M"")";19;MÈtro;Metropolitana;Underground
+;"Metro (Kodierung GTFS 2022: ""M"")";19;M√©tro;Metropolitana;Underground
 ;"Bus (Kodierung GTFS 2022: ""B"")";20;Bus;Bus;Bus
 ;"Taxi (Kodierung GTFS 2022: ""TX"")";21;Taxi;Taxi;Taxi
 ;"Rufbus (Kodierung GTFS 2022: ""RUB"")";22;Bus sur appel;bus a chiamata;On-call bus
@@ -69,13 +69,13 @@ ROUTEDESCA;"Tram (Kodierung GTFS 2022: ""T"")";1;Tram;Tram;Tramway
 ;"Nachtbus (Kodierung GTFS 2022: ""BN"")";24;Bus ligne de nuit;Bus notturno;Nightbus
 ;"PanoramaBus (Kodierung GTFS 2022: ""BP"")";25;PanoramaBus;Bus panoramico;Panorama bus
 ;"Fernbus national (Kodierung GTFS 2022: ""CAR"")";26;Bus longues distances national;Bus nazionale a lunga percorrenza;National long-distance bus
-;"Gondelbahn (Kodierung GTFS 2022: ""GB"")";27;TÈlÈcabine;Cabinovia;Gondola lift
-;"Sesselbahn (Kodierung GTFS 2022: ""SL"")";28;TÈlÈsiËge;Seggiovia;Chairlift
-;"Pendelbahn (Kodierung GTFS 2022: ""PB"")";29;TÈlÈphÈrique ‡ va-et-vient;funivia a va e vieni;aerial tramway
+;"Gondelbahn (Kodierung GTFS 2022: ""GB"")";27;T√©l√©cabine;Cabinovia;Gondola lift
+;"Sesselbahn (Kodierung GTFS 2022: ""SL"")";28;T√©l√©si√®ge;Seggiovia;Chairlift
+;"Pendelbahn (Kodierung GTFS 2022: ""PB"")";29;T√©l√©ph√©rique √† va-et-vient;funivia a va e vieni;aerial tramway
 ;"Standseilbahn (Kodierung 2022: ""FUN"")";30;Funiculaire;Funicolare;Funicular
 ;"Aufzug (Kodierung GTFS 2022: ""ASC"")";31;Ascenseur;Ascensore;Lift
-;"Zahnradbahn (Kodierung GTFS 2022: ""CC"")";32;Chemin de fer ‡ crÈmaillËre;Cremagliera;Rack-railroad
+;"Zahnradbahn (Kodierung GTFS 2022: ""CC"")";32;Chemin de fer √† cr√©maill√®re;Cremagliera;Rack-railroad
 ;"Schiff (Kodierung GTFS 2022: ""BAT"")";33;Bateau;Battello;Ship
-;"F‰hre (Kodierung GTFS 2022: ""FAE"")";34;Bac;Traghetto;Ferry-boat
-;"LeermaterialZ (Reisezugswagen) (Kodierung GTFS 2022: ""MAT"")";35;Train de matÈriel vide (voitures voyageurs);Materiale vuoto (treno viaggiatori);Empty material train (passenger carriage)
+;"F√§hre (Kodierung GTFS 2022: ""FAE"")";34;Bac;Traghetto;Ferry-boat
+;"LeermaterialZ (Reisezugswagen) (Kodierung GTFS 2022: ""MAT"")";35;Train de mat√©riel vide (voitures voyageurs);Materiale vuoto (treno viaggiatori);Empty material train (passenger carriage)
 ;"Agenturzug (Kodierung GTFS 2022: ""AG"")";36;Train d'agence;Treno d'agenzia;Agencytrain
