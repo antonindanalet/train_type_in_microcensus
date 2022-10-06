@@ -18,7 +18,7 @@ The variables that are added by this code are:
 | route_id	| Route ID in GTFS timetable | 
 | trip_id	| Trip ID in GTFS timetable (new name for the variable HAF_ID, same content) | 
 | route_desc |	Transport mode in GTFS timetable (from file routes.txt) | 
-| zugtyp | Type of train | 
+| zugtyp | Type of train according to HRDF file 'ZUGART' | 
 
 The route_desc variable is coded as follows:
 
@@ -63,14 +63,14 @@ The route_desc variable is coded as follows:
 
 The zugtyp variable / type of train is coded as follows:
 
-| Value | Label                                           |
-|-------|-------------------------------------------------|
-| -99   | Transport mode is not train                     |
-| -97   | No matching found                               |
-| 0     | ICE/EN/CNL/CIS/ES/MET/NZ/PEN/TGV/THA/X2         |
-| 1     | EuroCity/InterCity/ICN/InterCityNight/SuperCity |
-| 2     | InterRegio                                      |
-| 3     | RegioExpress                                    |
-| 5     | S-Bahn/StadtExpress/Eilzug/Regionalzug          |
+| Value | Label (EN)                                               | Label (DE)                                      |
+|-------|----------------------------------------------------------|-------------------------------------------------|
+| -99   | Transport mode is not train                              | f51300 ungleich 9                               |
+| -97   | No matching found                                        | Zugtyp konnte nicht zugewiesen werden           |
+| 0     | ICE/EN/CNL/CIS/ES/MET/NZ/PEN/TGV/THA/X2                  | ICE/EN/CNL/CIS/ES/MET/NZ/PEN/TGV/THA/X2         |
+| 1     | EuroCity/InterCity/ICN/InterCityNight/SuperCity          | EuroCity/InterCity/ICN/InterCityNight/SuperCity |
+| 2     | InterRegio                                               | InterRegio                                      |
+| 3     | Fast train/RegioExpress                                  | Schnellzug/RegioExpress                         |
+| 5     | Urban railway/StadtExpress/Semi fast train/Omnibus train | S-Bahn/StadtExpress/Eilzug/Regionalzug          |
 
-The aggregation key can be found <a href="https://github.com/antonindanalet/train_type_in_microcensus/blob/master/src/run_train_type_in_microcensus.py#L50">in the code</a>.
+The aggregation key can be found <a href="https://github.com/antonindanalet/train_type_in_microcensus/blob/master/src/run_train_type_in_microcensus.py#L50">in the code</a> or in the <a href="https://github.com/antonindanalet/train_type_in_microcensus/blob/master/data/input/hrdf/ZUGART">ZUGART file</a> from the HRDF timetable.
