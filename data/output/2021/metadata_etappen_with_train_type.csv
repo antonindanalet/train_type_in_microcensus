@@ -43,39 +43,39 @@ ZUGTYPA;f51300 ungleich 11;-99;;;
 ;InterRegio;2;;;
 ;RegioExpress;3;;;
 ;S-Bahn/StadtExpress/Eilzug/Regionalzug;5;;;
-ROUTEDESCA;Tram (Kodierung GTFS 2022: "T");1;Tram;Tram;Tramway
-;S-Bahn (Kodierung GTFS 2022: "S");2;RER;Rete celere;Urban train
-;RegioExpress (Kodierung GTFS 2022: "RE");3;RegioExpress;RegioExpress;RegioExpress
-;Regio (Kodierung GTFS 2022: "R");4;Regio;Regio;Regio
-;Regionalbahn (Kodierung GTFS 2022: "RB");5;Train régional;Ferrovia regionale;Regional train
-;InterRegio (Kodierung GTFS 2022: "IR");6;InterRegio;InterRegio;InterRegio
-;Train Express Regional (Kodierung GTFS 2022: "TER");7;Train Express Regional;Train Express Regional;Train Express Regional
-;Expressbus (Kodierung GTFS 2022: "EXB");8;Bus express;Bus espresso;Express bus
-;Train à grande vitesse (codage GTFS 2022: "TGV");9;Train à grande vitesse;Train à grande vitesse;Train à grande vitesse
-;InterCity (Kodierung GTFS 2022: "IC");10;InterCity;InterCity;InterCity
-;InterCityExpress (Kodierung GTFS 2022: "ICE");11;InterCityExpress;InterCityExpress;InterCityExpress
-;EuroCity (Kodierung GTFS 2022: "EC");12;EuroCity;EuroCity;EuroCity
-;PanoramaExpress (Kodierung GTFS 2022: "PE");13;PanoramaExpress;PanoramaExpress;PanoramaExpress
-;Extrazug (Kodierung GTFS 2022: "EXT");14;Train spécial;Treno speciale;Special train
-;Interregio-Express (Kodierung GTFS 2022: "IRE");15;Interregio-Express;Interregio-Express ;Interregio-Express 
-;railjet xpress (Kodierung GTFS 2022: "RJX");16;railjet xpress;railjet xpress;railjet xpress
-;Nacht-S-Bahn (Kodierung GTFS 2022: "SN");17;RER-nuit;Rete celere notte;Night-urban train
-;nightjet (Kodierung GTFS 2022: "NJ");18;nightjet;nightjet;nightjet
-;Metro (Kodierung GTFS 2022: "M");19;Métro;Metropolitana;Underground
-;Bus (Kodierung GTFS 2022: "B");20;Bus;Bus;Bus
-;Taxi (Kodierung GTFS 2022: "TX");21;Taxi;Taxi;Taxi
-;Rufbus (Kodierung GTFS 2022: "RUB");22;Bus sur appel;bus a chiamata;On-call bus
+ROUTEDESCA;Tram (Kodierung GTFS 2022: 'T');1;Tram;Tram;Tramway
+;S-Bahn (Kodierung GTFS 2022: 'S');2;RER;Rete celere;Urban train
+;RegioExpress (Kodierung GTFS 2022: 'RE');3;RegioExpress;RegioExpress;RegioExpress
+;Regio (Kodierung GTFS 2022: 'R');4;Regio;Regio;Regio
+;Regionalbahn (Kodierung GTFS 2022: 'RB');5;Train régional;Ferrovia regionale;Regional train
+;InterRegio (Kodierung GTFS 2022: 'IR');6;InterRegio;InterRegio;InterRegio
+;Train Express Regional (Kodierung GTFS 2022: 'TER');7;Train Express Regional;Train Express Regional;Train Express Regional
+;Expressbus (Kodierung GTFS 2022: 'EXB');8;Bus express;Bus espresso;Express bus
+;Train à grande vitesse (codage GTFS 2022: 'TGV');9;Train à grande vitesse;Train à grande vitesse;Train à grande vitesse
+;InterCity (Kodierung GTFS 2022: 'IC');10;InterCity;InterCity;InterCity
+;InterCityExpress (Kodierung GTFS 2022: 'ICE');11;InterCityExpress;InterCityExpress;InterCityExpress
+;EuroCity (Kodierung GTFS 2022: 'EC');12;EuroCity;EuroCity;EuroCity
+;PanoramaExpress (Kodierung GTFS 2022: 'PE');13;PanoramaExpress;PanoramaExpress;PanoramaExpress
+;Extrazug (Kodierung GTFS 2022: 'EXT');14;Train spécial;Treno speciale;Special train
+;Interregio-Express (Kodierung GTFS 2022: 'IRE');15;Interregio-Express;Interregio-Express ;Interregio-Express 
+;railjet xpress (Kodierung GTFS 2022: 'RJX');16;railjet xpress;railjet xpress;railjet xpress
+;Nacht-S-Bahn (Kodierung GTFS 2022: 'SN');17;RER-nuit;Rete celere notte;Night-urban train
+;nightjet (Kodierung GTFS 2022: 'NJ');18;nightjet;nightjet;nightjet
+;Metro (Kodierung GTFS 2022: 'M');19;Métro;Metropolitana;Underground
+;Bus (Kodierung GTFS 2022: 'B');20;Bus;Bus;Bus
+;Taxi (Kodierung GTFS 2022: 'TX');21;Taxi;Taxi;Taxi
+;Rufbus (Kodierung GTFS 2022: 'RUB');22;Bus sur appel;bus a chiamata;On-call bus
 ;Kleinbus;23;Minibus;Minibus;Minibus
-;Nachtbus (Kodierung GTFS 2022: "BN");24;Bus ligne de nuit;Bus notturno;Nightbus
-;PanoramaBus (Kodierung GTFS 2022: "BP");25;PanoramaBus;Bus panoramico;Panorama bus
-;Fernbus national (Kodierung GTFS 2022: "CAR");26;Bus longues distances national;Bus nazionale a lunga percorrenza;National long-distance bus
-;Gondelbahn (Kodierung GTFS 2022: "GB");27;Télécabine;Cabinovia;Gondola lift
-;Sesselbahn (Kodierung GTFS 2022: "SL");28;Télésiège;Seggiovia;Chairlift
-;Pendelbahn (Kodierung GTFS 2022: "PB");29;Téléphérique à va-et-vient;funivia a va e vieni;aerial tramway
-;Standseilbahn (Kodierung 2022: "FUN");30;Funiculaire;Funicolare;Funicular
-;Aufzug (Kodierung GTFS 2022: "ASC")";31;Ascenseur;Ascensore;Lift
-;Zahnradbahn (Kodierung GTFS 2022: "CC");32;Chemin de fer à crémaillère;Cremagliera;Rack-railroad
-;Schiff (Kodierung GTFS 2022: "BAT");33;Bateau;Battello;Ship
-;Fähre (Kodierung GTFS 2022: "FAE");34;Bac;Traghetto;Ferry-boat
-;LeermaterialZ (Reisezugswagen) (Kodierung GTFS 2022: "MAT");35;Train de matériel vide (voitures voyageurs);Materiale vuoto (treno viaggiatori);Empty material train (passenger carriage)
-;Agenturzug (Kodierung GTFS 2022: "AG");36;Train d'agence;Treno d'agenzia;Agencytrain
+;Nachtbus (Kodierung GTFS 2022: 'BN');24;Bus ligne de nuit;Bus notturno;Nightbus
+;PanoramaBus (Kodierung GTFS 2022: 'BP');25;PanoramaBus;Bus panoramico;Panorama bus
+;Fernbus national (Kodierung GTFS 2022: 'CAR');26;Bus longues distances national;Bus nazionale a lunga percorrenza;National long-distance bus
+;Gondelbahn (Kodierung GTFS 2022: 'GB');27;Télécabine;Cabinovia;Gondola lift
+;Sesselbahn (Kodierung GTFS 2022: 'SL');28;Télésiège;Seggiovia;Chairlift
+;Pendelbahn (Kodierung GTFS 2022: 'PB');29;Téléphérique à va-et-vient;funivia a va e vieni;aerial tramway
+;Standseilbahn (Kodierung 2022: 'FUN');30;Funiculaire;Funicolare;Funicular
+;Aufzug (Kodierung GTFS 2022: 'ASC');31;Ascenseur;Ascensore;Lift
+;Zahnradbahn (Kodierung GTFS 2022: 'CC');32;Chemin de fer à crémaillère;Cremagliera;Rack-railroad
+;Schiff (Kodierung GTFS 2022: 'BAT');33;Bateau;Battello;Ship
+;Fähre (Kodierung GTFS 2022: 'FAE');34;Bac;Traghetto;Ferry-boat
+;LeermaterialZ (Reisezugswagen) (Kodierung GTFS 2022: 'MAT');35;Train de matériel vide (voitures voyageurs);Materiale vuoto (treno viaggiatori);Empty material train (passenger carriage)
+;Agenturzug (Kodierung GTFS 2022: 'AG');36;Train d'agence;Treno d'agenzia;Agencytrain
