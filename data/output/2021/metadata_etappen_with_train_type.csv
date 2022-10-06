@@ -27,7 +27,7 @@ F51300A;Pseudoetappe;-99;;;
 ;Bahn/Zug;11;;;
 ;Bus, Postauto, Schulbus;12;;;
 ;Tram/Metro;13;;;
-;Taxi (im "klassischen" Sinn);14;;;
+;Taxi (im 'klassischen' Sinn);14;;;
 ;Taxi-ähnliche Fahrdienste (z.B. Uber);15;;;
 ;Reisecar;16;;;
 ;Lastwagen;17;;;
