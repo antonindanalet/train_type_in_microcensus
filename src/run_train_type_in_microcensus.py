@@ -42,26 +42,26 @@ def run_train_type_in_microcensus():
 
 def add_type_abbreviation(df_trips):
     """ Categories:
-    0 ICE-Zuege / ICE-Trains, ICE/EN/CNL/CIS/ES/MET/NZ/PEN/TGV/THA/X2
-    1 Intercity- und Eurocityzuege / Intercity- and Eurocitytrains, EuroCity/InterCity/ICN/InterCityNight/SuperCity
-    2 Interregio- und Schnellzuege / Regional- and Fast trains, InterRegio
-    3 Nahverkehr, sonstige Zuege / Regional and other trains, RegioExpress
-    5 S-Bahnen / S-Bahn, StadtExpress, Eilzug, Regionalzug """
+    0 ICE/EN/CNL/CIS/ES/MET/NZ/PEN/TGV/THA/X2
+    1 EuroCity/InterCity/ICN/InterCityNight/SuperCity
+    2 InterRegio
+    3 Fast train/RegioExpress
+    5 Urban railway/StadtExpress/Semi fast train/Omnibus train """
     dict_abbreviation = {'Tram': -99,  # 2021 codes
                          'S-Bahn': 5,  # 2021 codes
                          'RegioExpress': 3,  # 2021 codes
                          'Regio': 5,  # 2021 codes
-                         'Regionalbahn': 5,  # 2021 codes
+                         'Regionalbahn': 3,  # 2021 codes
                          'InterRegio': 2,  # 2021 codes
-                         'Train Express Regional': 3,  # 2021 codes
+                         'Train Express Regional': 5,  # 2021 codes
                          'Expressbus': -99,  # 2021 codes
                          'Train … grande vit.': 0,  # 2021 codes
                          'InterCity': 1,  # 2021 codes
                          'InterCityExpress': 2,  # 2021 codes
                          'EuroCity': 1,  # 2021 codes
-                         'PanoramaExpress': -97,  # 2021 codes
-                         'Extrazug': -97,  # 2021 codes
-                         'Interregio-Express': 2,  # 2021 codes
+                         'PanoramaExpress': 2,  # 2021 codes
+                         'Extrazug': -99,  # 2021 codes
+                         'Interregio-Express': 3,  # 2021 codes
                          'railjet xpress': 0,  # 2021 codes
                          'Nacht-S-Bahn': 5,  # 2021 codes
                          'nightjet': 0,  # 2021 codes
@@ -85,20 +85,20 @@ def add_type_abbreviation(df_trips):
                          'S': 5,  # S-Bahn (2022 codes)
                          'SN': 5,  # Nacht-S-Bahn (2022 codes)
                          'RE': 3,  # RegioExpress (2022 codes)
-                         'RB': 5,  # Regionalbahn / regional train (2022 codes)
+                         'RB': 3,  # Regionalbahn / regional train (2022 codes)
                          'R': 5,  # Regio (2022 codes)
                          'IR': 2,  # InterRegio (2022 codes)
                          'IC': 1,  # InterCity (2022 codes)
-                         'TER': 3,  # Train Expresse Regional (2022 codes)
+                         'TER': 5,  # Train Expresse Regional (2022 codes)
                          'ICE': 0,  # InterCityExpress (2022 codes)
                          'EC': 1,  # EuroCity (2022 codes)
-                         'PE': -97,  # PanoramaExpress (2022 codes)
+                         'PE': 2,  # PanoramaExpress (2022 codes)
                          'RJX': 0,  # railjet xpress (2022 codes)
                          'TGV': 0,
-                         'IRE': 2,  # Interregio-Express (2022 codes)
+                         'IRE': 3,  # Interregio-Express (2022 codes)
                          'NJ': 0,  # nightjet (2022 codes)
-                         'EXT': -97,  # Extrazug / special train (2022 codes)
-                         'MAT': -97,  # LeermaterialZ (Reisezugswagen) / empty material train (passenger carriage)
+                         'EXT': -99,  # Extrazug / special train (2022 codes)
+                         'MAT': -99,  # LeermaterialZ (Reisezugswagen) / empty material train (passenger carriage)
                          'AG': -97,  # Agenturzug (2022 codes)
                          'M': -99,  # Metro (2022 codes)
                          'TX': -99,  # Taxi (2022 codes)
