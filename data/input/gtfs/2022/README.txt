@@ -1,0 +1,2 @@
+Add files routes.txt and trips.txt from the GTFS zip file gtfs_fp2022_2021-12-15_09-15.zip here.
+This zip file can be downloaded on https://opentransportdata.swiss/, direct link: https://opentransportdata.swiss/en/dataset/timetable-2022-gtfs2020/resource/ce40f5e8-3bea-453e-b4d0-572feeb0b5ca
