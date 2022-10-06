@@ -1,0 +1,1 @@
+The file ZUGART comes from the ZIP file oev_sammlung_ch_hrdf_5_40_41_2021_20201213_033953.zip downloaded on https://opentransportdata.swiss/de/dataset/timetable-54-2021-hrdf/resource/4fcfd828-2575-435f-85e3-354dce2ec2da
