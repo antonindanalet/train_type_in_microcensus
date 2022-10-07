@@ -121,75 +121,76 @@ def add_type_abbreviation(df_trips):
 
 
 def recode_route_desc(df_etappen):
-    dict_codes = {'Tram': 1,
-                  'S-Bahn': 2,
-                  'RegioExpress': 3,
-                  'Regio': 4,
-                  'Regionalbahn': 5,
-                  'InterRegio': 6,
-                  'Train Express Regional': 7,
-                  'Expressbus': 8,
-                  'Train … grande vit.': 9,
-                  'InterCity': 10,
-                  'InterCityExpress': 11,
-                  'EuroCity': 12,
-                  'PanoramaExpress': 13,
-                  'Extrazug': 14,
-                  'Interregio-Express': 15,
-                  'railjet xpress': 16,
-                  'Nacht-S-Bahn': 17,
-                  'nightjet': 18,
-                  'Metro': 19,
-                  'Bus': 20,
-                  'Taxi': 21,
-                  'Rufbus': 22,
-                  'Kleinbus': 23,
-                  'Nachtbus': 24,
-                  'PanoramaBus': 25,
-                  'Fernbus national': 26,
-                  'Gondelbahn': 27,
-                  'Sesselbahn': 28,
-                  'Pendelbahn': 29,
-                  'Standseilbahn': 30,
-                  'Aufzug': 31,
-                  'Zahnradbahn': 32,
-                  'Schiff': 33,
-                  'F„hre': 34,
-                  'T': 1,  # Tram
-                  'S': 2,  # S-Bahn
-                  'SN': 17,  # Nacht-S-Bahn
-                  'RE': 3,  # RegioExpress
-                  'RB': 5,  # Regionalbahn / regional train
-                  'R': 4,  # Regio
-                  'IR': 6,  # InterRegio
-                  'IC': 10,  # InterCity
-                  'TER': 7,  # Train Expresse Regional
-                  'ICE': 11,  # InterCityExpress
-                  'EC': 12,  # EuroCity
-                  'PE': 13,  # PanoramaExpress
-                  'RJX': 16,  # railjet xpress
-                  'TGV': 9,
-                  'IRE': 15,  # Interregio-Express
-                  'NJ': 18,  # nightjet
-                  'EXT': 14,  # Extrazug / special train
-                  'MAT': 35,  # LeermaterialZ (Reisezugswagen) / empty material train (passenger carriage)
-                  'AG': 36,  # Agenturzug
-                  'M': 19,  # Metro
-                  'TX': 21,  # Taxi
-                  'B': 20,  # Bus
-                  'EXB': 8,  # Expressbus
-                  'RUB': 22,  # Rufbus / on-call bus
-                  'BN': 24,  # Nachtbus / night-bus
-                  'CAR': 26,  # Fernbus national / international long-distance bus
-                  'BP': 25,  # PanoramaBus
-                  'SL': 28,  # Sesselbahn / charlift
-                  'GB': 27,  # Gondelbahn / gondola lift
-                  'PB': 29,  # Pendelbahn / aerial tramway
-                  'FUN': 30,  # Standseilbahn / funicular
-                  'ASC': 31,  # Aufzug / lift
-                  'CC': 32,  # Zahnradbahn / rack-railroad
-                  'BAT': 33,  # Schiff / ship
-                  'FAE': 34}  # Faehre / ferry-boat
+    # The coding is based on the coding in the ZUGART file
+    dict_codes = {'Aufzug': 1,
+                  'ASC': 1,  # Aufzug / lift
+                  'Bus': 2,
+                  'B': 2,  # Bus
+                  'Schiff': 3,
+                  'BAT': 3,  # Schiff / ship
+                  'Nachtbus': 4,
+                  'BN': 4,  # Nachtbus / night-bus
+                  'PanoramaBus': 5,
+                  'BP': 5,  # PanoramaBus
+                  'Fernbus national': 7,
+                  'CAR': 7,  # Fernbus national / international long-distance bus
+                  'Zahnradbahn': 8,
+                  'CC': 8,  # Zahnradbahn / rack-railroad
+                  'EuroCity': 9,
+                  'EC': 9,  # EuroCity
+                  'Expressbus': 10,
+                  'EXB': 10,  # Expressbus
+                  'Extrazug': 11,
+                  'EXT': 11,  # Extrazug / special train
+                  'F„hre': 12,
+                  'FAE': 12,  # Faehre / ferry-boat
+                  'Standseilbahn': 13,
+                  'FUN': 13,  # Standseilbahn / funicular
+                  'Gondelbahn': 14,
+                  'GB': 14,  # Gondelbahn / gondola lift
+                  'InterCity': 15,
+                  'IC': 15,  # InterCity
+                  'InterCityExpress': 16,
+                  'ICE': 16,  # InterCityExpress
+                  'InterRegio': 17,
+                  'IR': 17,  # InterRegio
+                  'Interregio-Express': 18,
+                  'IRE': 18,  # Interregio-Express
+                  'Kleinbus': 19,
+                  'Metro': 20,
+                  'M': 20,  # Metro
+                  'MAT': 21,  # LeermaterialZ (Reisezugswagen) / empty material train (passenger carriage)
+                  'nightjet': 22,
+                  'NJ': 22,  # nightjet
+                  'Pendelbahn': 23,
+                  'PB': 23,  # Pendelbahn / aerial tramway
+                  'PanoramaExpress': 24,
+                  'PE': 24,  # PanoramaExpress
+                  'Regio': 25,
+                  'R': 25,  # Regio
+                  'Regionalbahn': 26,
+                  'RB': 26,  # Regionalbahn / regional train
+                  'RegioExpress': 27,
+                  'RE': 27,  # RegioExpress
+                  'railjet xpress': 28,
+                  'RJX': 28,  # railjet xpress
+                  'Rufbus': 29,
+                  'RUB': 29,  # Rufbus / on-call bus
+                  'S-Bahn': 30,
+                  'S': 30,  # S-Bahn
+                  'Sesselbahn': 31,
+                  'SL': 31,  # Sesselbahn / charlift
+                  'Nacht-S-Bahn': 32,
+                  'SN': 32,  # Nacht-S-Bahn
+                  'Tram': 33,
+                  'T': 33,  # Tram
+                  'Train Express Regional': 34,
+                  'TER': 34,  # Train Expresse Regional
+                  'Train … grande vit.': 35,
+                  'TGV': 35,
+                  'Taxi': 36,
+                  'TX': 36,  # Taxi
+                  'AG': 37}  # Agenturzug
     df_etappen['route_desc'] = df_etappen['route_desc'].map(dict_codes)
     return df_etappen
 
